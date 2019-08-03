@@ -48,16 +48,16 @@ struct timespec{
     - `IPC_STAT` 获取信号量的属性
     - `IPC_SET` 设置信号量的属性
     
-    - IPC_RMID 删除信号量的属性
-    - IPC_INFO 获取信号量的信息
-    - SEM_INFO 设置信号量的信息
+    - `IPC_RMID` 删除信号量的属性
+    - `IPC_INFO` 获取信号量的信息
+    - `SEM_INFO` 设置信号量的信息
 
-    - GETALL 获取所有信号量的值
-    - GETNCNT 获取信号量的数量
-    - GETVAL 获取某个信号量的值
-    - GETZCNT 返回正在等待的完全空闲的资源数目
-    - SETALL 设置所有信号量的值
-    - SETVAL 设置某个信号量的值
+    - `GETALL` 获取所有信号量的值
+    - `GETNCNT` 获取信号量的数量
+    - `GETVAL` 获取某个信号量的值
+    - `GETZCNT` 返回正在等待的完全空闲的资源数目
+    - `SETALL` 设置所有信号量的值
+    - `SETVAL` 设置某个信号量的值
 ```C
 union semun {
     int              val;    /* Value for SETVAL */
